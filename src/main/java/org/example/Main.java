@@ -5,6 +5,8 @@ public class Main {
         System.out.println("Hello world!");
 
         Engineer engineer = new Engineer();
+        engineer.setAddOverTime(true);
+        engineer.setAddRisk(true);
         System.out.println(engineer.salary());
     }
 }

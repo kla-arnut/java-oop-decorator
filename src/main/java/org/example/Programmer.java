@@ -7,6 +7,6 @@ public class Programmer extends Employee{
 
     @Override
     public double salary() {
-        return 10000.00;
+        return super.salary() + 10000.00;
     }
 }
